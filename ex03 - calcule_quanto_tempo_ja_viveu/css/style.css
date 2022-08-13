@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    vertical-align: middle;
+}
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cecec6;
+}
+.calendario {
+    width: 480px;
+    height: 400px;
+    background: #fffdf4;
+    margin: 80px auto;
+    position: relative;
+    border: 1px solid #babaab;
+    transform: skewX(-4deg);
+}
+.calendario:before {
+    content: "";
+    border: 20px solid transparent;
+    border-left: 60px solid #9b9b8c;
+    border-top: 6px solid #9b9b8c;
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+}
+.calendario:after {
+    content: "";
+    border: 67px solid transparent;
+    border-left: 13px solid #babaab;
+    border-bottom: 307px solid #babaab;
+    position: absolute;
+    right: -80px;
+    top: 0;
+    z-index: -1;
+}
+.calendario form {
+    display: block;
+    padding: 20px;
+}
+.calendario h2 {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #aa1c4e;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.calendario label {
+    width: 145px;
+    border: 1px solid #cbcbc0;
+    float: left;
+    padding: 20px 10px;
+}
+.calendario label small {
+    display: block;
+    text-align: right;
+    color: #AAA;
+    text-transform: uppercase;
+}
+.calendario label input {
+    width: 100%;
+    padding: 5px 0;
+    border: 0;
+    text-align: right;
+    font-size: 45px;
+    background: #fffdf4;
+    color: #d82363;
+    outline: none;
+}
+.calendario .btn {
+    width: 145px;
+    padding: 0;
+    height: 102px;
+    border: 1px solid #ea2239;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow: 0 3px 3px #000;
+    background: -webkit-linear-gradient(top,  #ffc078 2%, #ff0022 50%, #ff0022 10%);
+    background: -moz-linear-gradient(top,  #ffc078 2%, #ff0022 50%, #ff0022 10%);
+    background: -o-linear-gradient(top,  #ffc078 2%, #ff0022 50%, #ff0022 10%);
+
+
+}
+.resultado {
+    width: 290px;
+    border: 1px solid #cbcbc0;
+    border-top: 0;
+    float: left;
+    padding: 20px 10px;
+    height: 102px;
+}
+.resultado small {
+    display: block;
+    text-align: right;
+    color: #aaa;
+    text-transform: uppercase;
+}
+.resultado p {
+    display: block;
+    text-align: right;
+    color: #d82363;
+    text-transform: uppercase;
+    font-size: 45px;
+}
