@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    vertical-align: middle;
+    outline-color: #5d9cdf;
+    
+}
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9f9fa url(../img/img-fundo.png) no-repeat;
+}
+.container {
+    width: 601px;
+    height: 420px;
+    background: #f8f8fa;
+    border: 3px solid #e1e1e3;
+    margin: 100px auto;
+    padding: 40px 80px;
+    position: relative;
+    float: right;
+    margin-right: 110px;
+    border-radius: 8px;
+    box-shadow: 0 3px 17px 0 #d4d4d4; 
+}
+
+.container label {
+    display: block;
+    padding: 8px 0px;
+}
+.container label span {
+    display: block;
+    padding-bottom: 5px;
+    color: #646568;
+    border: 0;
+    margin-right: 7px;
+    font-size: 15px;
+}
+.container label input {
+    width: 100%;
+    font-size: 20px;
+    background: #fff;
+    border: 1px solid #d8d8da;
+    padding: 8px;
+}
+.container .col {
+    width: 48%;
+    float: left;
+
+}
+.container .col:nth-of-type(2n+1) {
+    float: right;
+}
+.container .btn {
+    padding: 14px 20px;
+    border: 2px solid #96abb9;
+    background: url(../img/img-btn.png) repeat;
+    color: #6d818e;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.container .resultado {
+    position: absolute;
+    top: 90px;
+    right: 590px;
+    z-index: -1;
+    width: 325px;
+    background: #abc0d6;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 #b1b1b1;
+    border-radius: 8px 0 0 8px;
+}
+.container .resultado h3 {
+    text-transform: uppercase;
+    color: #1f2f40;
+}
+.container .resultado p {
+    text-transform: uppercase;
+    color: #2d4865;
+    padding: 7px 0;
+
+}
