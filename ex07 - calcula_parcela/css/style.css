@@ -51,6 +51,7 @@ body {
     font-size: 26px;
     text-shadow: 0 1px 1px #000;
     border-radius: 5px;
+    cursor: pointer;
 }
 .container span {
     display: block;
